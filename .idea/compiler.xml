@@ -15,8 +15,8 @@
     <bytecodeTargetLevel>
       <module name="autoconfigure" target="1.5" />
       <module name="base-dependencies" target="1.5" />
+      <module name="cloud-demo-dependencies" target="1.5" />
       <module name="demo-cloud-starter" target="1.5" />
-      <module name="dependencies" target="1.5" />
       <module name="parent" target="1.5" />
       <module name="starters" target="1.5" />
     </bytecodeTargetLevel>
