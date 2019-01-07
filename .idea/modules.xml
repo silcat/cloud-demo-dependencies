@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/autoconfigure/autoconfigure.iml" filepath="$PROJECT_DIR$/autoconfigure/autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-dependencies/base-dependencies.iml" filepath="$PROJECT_DIR$/base-dependencies/base-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/demo-cloud-starter/demo-cloud-starter.iml" filepath="$PROJECT_DIR$/starters/demo-cloud-starter/demo-cloud-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencies.iml" filepath="$PROJECT_DIR$/dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/starters.iml" filepath="$PROJECT_DIR$/starters/starters.iml" />
+    </modules>
+  </component>
+</project>

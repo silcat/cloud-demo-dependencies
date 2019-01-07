@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.example</groupId>
+    <artifactId>base-dependencies</artifactId>
+    <version>${revision}</version>
+    <relativePath>../parent</relativePath>
+  </parent>
+  <artifactId>autoconfigure</artifactId>
+  <packaging>jar</packaging>
+  <name>loc-framework-autoconfigure</name>
+  <description>loc-framework-autoconfigure</description>
+  <url>https://github.com/lord-of-code/loc-framework</url>
+
+  <properties>
+    <main.basedir>${basedir}/..</main.basedir>
+  </properties>
+
+  <dependencies>
+
+  </dependencies>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <finalName>${project.name}</finalName>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
