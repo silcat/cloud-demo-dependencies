@@ -7,11 +7,13 @@
         <option value="$PROJECT_DIR$/base-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/starters/pom.xml" />
         <option value="$PROJECT_DIR$/demo-starters/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-cloud-client-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/demo1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/demo-starters/demo-cloud-client-starter/pom.xml" />
         <option value="$PROJECT_DIR$/starters/loc-framework-job-starter/pom.xml" />
         <option value="$PROJECT_DIR$/starters/loc-framework-jpa-starter/pom.xml" />
         <option value="$PROJECT_DIR$/starters/loc-framework-kafka-starter/pom.xml" />

@@ -1,0 +1,1 @@
+provides: autoconfigure ,spring-boot-starter-web, spring-boot-starter-actuator, spring-boot-starter-aop, spring-boot-starter-test

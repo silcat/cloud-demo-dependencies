@@ -1,0 +1,1 @@
+provides: autoconfigure, spring-boot-starter-data-redis, commons-pool2

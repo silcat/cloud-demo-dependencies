@@ -8,8 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="autoconfigure" />
         <module name="base-dependencies" />
+        <module name="demo-boot-admin-starter" />
+        <module name="demo-cloud-client-starter" />
         <module name="demo-cloud-server-starter" />
+        <module name="demo-mybatis-starter" />
+        <module name="demo-rabbitMq-starter" />
+        <module name="demo-redis-starter" />
         <module name="demo-springboot-starter" />
+        <module name="demo-turbine-starter" />
+        <module name="demo-zipkin-mysql-starter" />
         <module name="loc-framework-cloud-starter" />
         <module name="loc-framework-config-starter" />
         <module name="loc-framework-jdbc-starter" />
@@ -23,12 +30,19 @@
     <bytecodeTargetLevel>
       <module name="autoconfigure" target="1.5" />
       <module name="base-dependencies" target="1.5" />
-      <module name="cloud-demo-dependencies" target="1.5" />
+      <module name="demo-boot-admin-starter" target="1.5" />
       <module name="demo-cloud-client-starter" target="1.5" />
       <module name="demo-cloud-client-starter (2)" target="1.5" />
       <module name="demo-cloud-server-starter" target="1.5" />
+      <module name="demo-cloud-server-starter (1)" target="1.5" />
+      <module name="demo-mybatis-starter" target="1.5" />
+      <module name="demo-rabbitMq-starter" target="1.5" />
+      <module name="demo-redis-starter" target="1.5" />
       <module name="demo-springboot-starter" target="1.5" />
       <module name="demo-starters" target="1.5" />
+      <module name="demo-turbine-starter" target="1.5" />
+      <module name="demo-zipkin-mysql-starter" target="1.5" />
+      <module name="dependencies" target="1.5" />
       <module name="loc-framework-cloud-starter" target="1.5" />
       <module name="loc-framework-config-starter" target="1.5" />
       <module name="loc-framework-jdbc-starter" target="1.5" />

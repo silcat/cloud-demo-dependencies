@@ -5,12 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.example</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>base-dependencies</artifactId>
     <version>${revision}</version>
-    <relativePath>../parent</relativePath>
+    <relativePath>../base-dependencies</relativePath>
   </parent>
   <artifactId>starters</artifactId>
-  <name>loc-framework-starters</name>
+  <name>starters</name>
   <packaging>pom</packaging>
 
 
@@ -19,14 +19,6 @@
   </properties>
 
   <modules>
-    <module>loc-framework-starter-parent</module>
-    <module>loc-framework-springmvc-starter</module>
-    <module>loc-framework-jdbc-starter</module>
-    <module>loc-framework-cloud-starter</module>
-    <module>loc-framework-config-starter</module>
-    <module>loc-framework-mybatis-starter</module>
-    <module>loc-framework-redis-starter</module>
-    <module>loc-framework-sleuth-starter</module>
 
   </modules>
 

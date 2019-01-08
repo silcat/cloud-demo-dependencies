@@ -1,0 +1,1 @@
+provides:autoconfigure, zipkin-autoconfigure-ui, zipkin-server, zipkin-autoconfigure-collector-rabbitmq, zipkin-autoconfigure-storage-mysql ,mysql-connector-java

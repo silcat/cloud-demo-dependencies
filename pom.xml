@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
-    <artifactId>dependencies</artifactId>
+    <artifactId>cloud-demo-dependencies</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
 
@@ -11,8 +11,9 @@
         <module>autoconfigure</module>
         <module>base-dependencies</module>
         <module>parent</module>
-        <module>starters</module>
+        <module>demo-starters</module>
     </modules>
+
     <properties>
         <main.basedir>${basedir}</main.basedir>
         <revision>1.0.0-SNAPSHOT</revision>

@@ -1,0 +1,1 @@
+provides: mybatis-spring-boot-starter, mapper-spring-boot-starter, pagehelper-spring-boot-starter

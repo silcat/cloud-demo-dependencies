@@ -5,19 +5,17 @@
     <file url="file://$PROJECT_DIR$/autoconfigure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-dependencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-starters" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-starters/demo-boot-admin-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-starters/demo-cloud-client-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-starters/demo-cloud-client-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-starters/demo-cloud-client-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-starters/demo-cloud-client-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-starters/demo-cloud-client-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-starters/demo-cloud-client-starter1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-starters/demo-cloud-server-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-starters/demo-mybatis-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-starters/demo-rabbitMq-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-starters/demo-redis-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-starters/demo-springboot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-starters/demo-turbine-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-starters/demo-zipkin-mysql-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starters" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starters" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starters" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starters/demo-cloud-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starters/loc-framework-starter-parent" charset="UTF-8" />
   </component>
 </project>

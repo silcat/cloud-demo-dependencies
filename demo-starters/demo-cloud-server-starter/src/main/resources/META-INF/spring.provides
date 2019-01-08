@@ -1,0 +1,1 @@
+provides: autoconfigure ,spring-cloud-starter-config, spring-cloud-starter-eureka-server
