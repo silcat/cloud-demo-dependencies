@@ -5,9 +5,19 @@
       <module fileurl="file://$PROJECT_DIR$/autoconfigure/autoconfigure.iml" filepath="$PROJECT_DIR$/autoconfigure/autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-dependencies/base-dependencies.iml" filepath="$PROJECT_DIR$/base-dependencies/base-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-dependencies.iml" filepath="$PROJECT_DIR$/cloud-demo-dependencies.iml" />
-      <module fileurl="file://$PROJECT_DIR$/starters/demo-cloud-starter/demo-cloud-starter.iml" filepath="$PROJECT_DIR$/starters/demo-cloud-starter/demo-cloud-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-starters/demo-cloud-client-starter.iml" filepath="$PROJECT_DIR$/demo-starters/demo-cloud-client-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-starters/demo-cloud-server-starter/demo-cloud-server-starter.iml" filepath="$PROJECT_DIR$/demo-starters/demo-cloud-server-starter/demo-cloud-server-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-starters/demo-springboot-starter/demo-springboot-starter.iml" filepath="$PROJECT_DIR$/demo-starters/demo-springboot-starter/demo-springboot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-starters/demo-starters.iml" filepath="$PROJECT_DIR$/demo-starters/demo-starters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-cloud-starter/loc-framework-cloud-starter.iml" filepath="$PROJECT_DIR$/starters/loc-framework-cloud-starter/loc-framework-cloud-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-config-starter/loc-framework-config-starter.iml" filepath="$PROJECT_DIR$/starters/loc-framework-config-starter/loc-framework-config-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-jdbc-starter/loc-framework-jdbc-starter.iml" filepath="$PROJECT_DIR$/starters/loc-framework-jdbc-starter/loc-framework-jdbc-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-mybatis-starter/loc-framework-mybatis-starter.iml" filepath="$PROJECT_DIR$/starters/loc-framework-mybatis-starter/loc-framework-mybatis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-redis-starter/loc-framework-redis-starter.iml" filepath="$PROJECT_DIR$/starters/loc-framework-redis-starter/loc-framework-redis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-sleuth-starter/loc-framework-sleuth-starter.iml" filepath="$PROJECT_DIR$/starters/loc-framework-sleuth-starter/loc-framework-sleuth-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-springmvc-starter/loc-framework-springmvc-starter.iml" filepath="$PROJECT_DIR$/starters/loc-framework-springmvc-starter/loc-framework-springmvc-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/loc-framework-starter-parent/loc-framework-starter-parent.iml" filepath="$PROJECT_DIR$/starters/loc-framework-starter-parent/loc-framework-starter-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/starters/starters.iml" filepath="$PROJECT_DIR$/starters/starters.iml" />
     </modules>
   </component>
 </project>

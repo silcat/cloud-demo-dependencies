@@ -8,7 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="autoconfigure" />
         <module name="base-dependencies" />
-        <module name="demo-cloud-starter" />
+        <module name="demo-cloud-server-starter" />
+        <module name="demo-springboot-starter" />
+        <module name="loc-framework-cloud-starter" />
+        <module name="loc-framework-config-starter" />
+        <module name="loc-framework-jdbc-starter" />
+        <module name="loc-framework-mybatis-starter" />
+        <module name="loc-framework-redis-starter" />
+        <module name="loc-framework-sleuth-starter" />
+        <module name="loc-framework-springmvc-starter" />
         <module name="parent" />
       </profile>
     </annotationProcessing>
@@ -16,7 +24,29 @@
       <module name="autoconfigure" target="1.5" />
       <module name="base-dependencies" target="1.5" />
       <module name="cloud-demo-dependencies" target="1.5" />
-      <module name="demo-cloud-starter" target="1.5" />
+      <module name="demo-cloud-client-starter" target="1.5" />
+      <module name="demo-cloud-client-starter (2)" target="1.5" />
+      <module name="demo-cloud-server-starter" target="1.5" />
+      <module name="demo-springboot-starter" target="1.5" />
+      <module name="demo-starters" target="1.5" />
+      <module name="loc-framework-cloud-starter" target="1.5" />
+      <module name="loc-framework-config-starter" target="1.5" />
+      <module name="loc-framework-jdbc-starter" target="1.5" />
+      <module name="loc-framework-job-starter" target="1.5" />
+      <module name="loc-framework-jpa-starter" target="1.5" />
+      <module name="loc-framework-kafka-starter" target="1.5" />
+      <module name="loc-framework-logback-starter" target="1.5" />
+      <module name="loc-framework-metrics-starter" target="1.5" />
+      <module name="loc-framework-mybatis-starter" target="1.5" />
+      <module name="loc-framework-okhttp-starter" target="1.5" />
+      <module name="loc-framework-redis-starter" target="1.5" />
+      <module name="loc-framework-shutdown-starter" target="1.5" />
+      <module name="loc-framework-sleuth-starter" target="1.5" />
+      <module name="loc-framework-springmvc-starter" target="1.5" />
+      <module name="loc-framework-starter-parent" target="1.8" />
+      <module name="loc-framework-wechat-miniapp-starter" target="1.5" />
+      <module name="loc-framework-wechat-mp-starter" target="1.5" />
+      <module name="monitor-client-starter" target="1.8" />
       <module name="parent" target="1.5" />
       <module name="starters" target="1.5" />
     </bytecodeTargetLevel>
