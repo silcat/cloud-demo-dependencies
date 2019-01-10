@@ -7,6 +7,7 @@
         <artifactId>cloud-demo-dependencies</artifactId>
         <version>${revision}</version>
     </parent>
+    <packaging>pom</packaging>
     <artifactId>base-dependencies</artifactId>
     <name>base-dependencies</name>
 
@@ -16,25 +17,16 @@
         <java.version>1.8</java.version>
         <spring.boot.version>1.5.13.RELEASE</spring.boot.version>
         <spring.cloud.version>Edgware.SR4</spring.cloud.version>
-        <mysql-connector-java.version>1.9.0</mysql-connector-java.version>
-        <mybatis-spring-boot-starter.version>1.9.0</mybatis-spring-boot-starter.version>
-        <mapper-spring-boot-starter.version>1.9.0</mapper-spring-boot-starter.version>
-        <pagehelper-spring-boot-starter.version>1.9.0</pagehelper-spring-boot-starter.version>
+        <mysql-connector-java.version>8.0.11</mysql-connector-java.version>
+        <mybatis-spring-boot-starter.version>1.3.1</mybatis-spring-boot-starter.version>
+        <mapper-spring-boot-starter.version>1.2.4</mapper-spring-boot-starter.version>
+        <pagehelper-spring-boot-starter.version>1.2.3</pagehelper-spring-boot-starter.version>
         <admin.version>1.5.7</admin.version>
         <zipkin.version>2.7.1</zipkin.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <!--spring boot-->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring.boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
             <!--spring cloud-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -56,13 +48,13 @@
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>${spring.cloud.version}</version>
+                <version>${mysql-connector-java.version}</version>
             </dependency>
             <!--mybatis-->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mapper-spring-boot-starter.version}</version>
+                <version>${mybatis-spring-boot-starter.version}</version>
             </dependency>
             <!--mapper-->
             <dependency>

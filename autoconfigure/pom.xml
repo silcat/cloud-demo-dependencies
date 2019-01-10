@@ -21,6 +21,64 @@
 
   <dependencies>
 
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-springboot-starter</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-mybatis-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-redis-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-rabbitMq-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-boot-admin-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-cloud-server-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-turbine-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-zipkin-mysql-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>demo-boot-admin-starter</artifactId>
+      <optional>true</optional>
+    </dependency>
+
   </dependencies>
 
   <build>
