@@ -11,15 +11,14 @@
   </parent>
   <artifactId>autoconfigure</artifactId>
   <packaging>jar</packaging>
-  <name>loc-framework-autoconfigure</name>
-  <description>loc-framework-autoconfigure</description>
-  <url>https://github.com/lord-of-code/loc-framework</url>
+  <name>autoconfigure</name>
 
   <properties>
     <main.basedir>${basedir}/..</main.basedir>
   </properties>
 
   <dependencies>
+
 
     <dependency>
       <groupId>com.example</groupId>
@@ -79,6 +78,15 @@
       <optional>true</optional>
     </dependency>
 
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+    </dependency>
   </dependencies>
 
   <build>

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.autoconfigure.redis.DemoRedisAutoConfiguration,\
+com.example.autoconfigure.restTemplate.RestTemplateAutoConfiguration,\
