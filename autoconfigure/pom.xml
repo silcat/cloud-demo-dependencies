@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.example</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>base-dependencies</artifactId>
     <version>${revision}</version>
-    <relativePath>../parent</relativePath>
+    <relativePath>../base-dependencies</relativePath>
   </parent>
   <artifactId>autoconfigure</artifactId>
   <packaging>jar</packaging>
@@ -19,91 +19,149 @@
 
   <dependencies>
 
-
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-springboot-starter</artifactId>
-    </dependency>
-
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-configuration-processor</artifactId>
       <optional>true</optional>
     </dependency>
+      <!--关系数据库-->
+      <!--redis-->
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-data-redis</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-pool2</artifactId>
+      </dependency>
 
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-mybatis-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
+      <!--数据库-->
+      <!--mysql-->
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+      </dependency>
+      <!--mybatis-->
+      <dependency>
+          <groupId>org.mybatis.spring.boot</groupId>
+          <artifactId>mybatis-spring-boot-starter</artifactId>
+      </dependency>
+      <!--mapper-->
+      <dependency>
+          <groupId>tk.mybatis</groupId>
+          <artifactId>mapper-spring-boot-starter</artifactId>
+      </dependency>
+      <!--pagehelper-->
+      <dependency>
+          <groupId>com.github.pagehelper</groupId>
+          <artifactId>pagehelper-spring-boot-starter</artifactId>
+      </dependency>
 
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-redis-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-rabbitMq-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-boot-admin-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-cloud-server-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-turbine-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-zipkin-mysql-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>demo-boot-admin-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>fastjson</artifactId>
-    </dependency>
+      <!--监控-->
+      <!--boot-admin-->
+      <dependency>
+          <groupId>de.codecentric</groupId>
+          <artifactId>spring-boot-admin-server</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>de.codecentric</groupId>
+          <artifactId>spring-boot-admin-server-ui</artifactId>
+      </dependency>
+      <!--admin中显示监控模板-->
+      <dependency>
+          <groupId>de.codecentric</groupId>
+          <artifactId>spring-boot-admin-server-ui-hystrix</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>de.codecentric</groupId>
+          <artifactId>spring-boot-admin-server-ui-login</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>de.codecentric</groupId>
+          <artifactId>spring-boot-admin-server-ui-turbine</artifactId>
+      </dependency>
+      <!--zipkin服务器-->
+      <dependency>
+          <groupId>io.zipkin.java</groupId>
+          <artifactId>zipkin-autoconfigure-ui</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>io.zipkin.java</groupId>
+          <artifactId>zipkin-server</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>io.zipkin.java</groupId>
+          <artifactId>zipkin-autoconfigure-collector-rabbitmq</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>io.zipkin.java</groupId>
+          <artifactId>zipkin-autoconfigure-storage-mysql</artifactId>
+      </dependency>
+       <!--common-->
+        <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>com.alibaba</groupId>
+          <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+        </dependency>
+      <dependency>
+          <groupId>commons-collections</groupId>
+          <artifactId>commons-collections</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+      </dependency>
   </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
 
-  <build>
-    <resources>
-      <resource>
-        <directory>${basedir}/src/main/resources</directory>
-        <filtering>true</filtering>
-      </resource>
-    </resources>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <finalName>${project.name}</finalName>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <compilerVersion>1.8</compilerVersion>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok-maven-plugin</artifactId>
+                <version>1.18.0.0</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>delombok</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

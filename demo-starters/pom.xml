@@ -27,7 +27,5 @@
         <module>demo-redis-starter</module>
         <module>demo-rabbitMq-starter</module>
         <module>demo-mybatis-starter</module>
-
     </modules>
-
 </project>
