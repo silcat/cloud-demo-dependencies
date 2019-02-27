@@ -5,65 +5,74 @@
     <parent>
         <groupId>com.example</groupId>
         <artifactId>base-dependencies</artifactId>
-        <version>${revision}</version>
+        <version>${version}</version>
         <relativePath>../base-dependencies</relativePath>
     </parent>
+
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <name>parent</name>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
+        <!--common utils package-->
+        <xxl-job-core.version>1.8.2</xxl-job-core.version>
+        <lombok.version>1.18.0</lombok.version>
+        <guava.version>20.0</guava.version>
+        <fastjson.version>1.2.47</fastjson.version>
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <httpclient.version>4.5.6</httpclient.version>
+        <commons-lang3.version>3.7</commons-lang3.version>
+        <commons-io.version>2.6</commons-io.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-mybatis-starter</artifactId>
-                <version>${revision}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-redis-starter</artifactId>
-                <version>${revision}</version>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-rabbitMq-starter</artifactId>
-                <version>${revision}</version>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
             </dependency>
-
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-boot-admin-starter</artifactId>
-                <version>${revision}</version>
+                <groupId>com.xuxueli</groupId>
+                <artifactId>xxl-job-core</artifactId>
+                <version>${xxl-job-core.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-cloud-server-starter</artifactId>
-                <version>${revision}</version>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-turbine-starter</artifactId>
-                <version>${revision}</version>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-api.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-zipkin-mysql-starter</artifactId>
-                <version>${revision}</version>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-boot-admin-starter</artifactId>
-                <version>${revision}</version>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${commons-collections.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

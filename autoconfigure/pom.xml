@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.example</groupId>
-    <artifactId>base-dependencies</artifactId>
+    <artifactId>parent</artifactId>
     <version>${revision}</version>
-    <relativePath>../base-dependencies</relativePath>
+    <relativePath>../parent</relativePath>
   </parent>
   <artifactId>autoconfigure</artifactId>
   <packaging>jar</packaging>
