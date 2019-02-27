@@ -14,8 +14,6 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-
-
     <modules>
         <module>autoconfigure</module>
         <module>base-dependencies</module>
@@ -105,6 +103,7 @@
             </plugin>
         </plugins>
     </build>
+
     <repositories>
         <repository>
             <id>aliyun-repos</id>

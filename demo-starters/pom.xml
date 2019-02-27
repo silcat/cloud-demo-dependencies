@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>base-dependencies</artifactId>
+        <artifactId>parent</artifactId>
         <version>${revision}</version>
-        <relativePath>../base-dependencies</relativePath>
+        <relativePath>../parent</relativePath>
     </parent>
     <artifactId>demo-starters</artifactId>
     <name>demo-starters</name>
