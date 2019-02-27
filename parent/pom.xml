@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.example</groupId>
         <artifactId>base-dependencies</artifactId>
-        <version>${version}</version>
+        <version>${revision}</version>
         <relativePath>../base-dependencies</relativePath>
     </parent>
 
