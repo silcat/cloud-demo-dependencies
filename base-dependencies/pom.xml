@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.example</groupId>
         <artifactId>cloud-demo-dependencies</artifactId>
-        <version>${revision}</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <packaging>pom</packaging>
@@ -25,6 +25,7 @@
         <pagehelper-spring-boot-starter.version>1.2.3</pagehelper-spring-boot-starter.version>
         <admin.version>1.5.7</admin.version>
         <zipkin.version>2.7.1</zipkin.version>
+        <start.version>1.0.0-SNAPSHOT</start.version>
     </properties>
 
     <dependencyManagement>
@@ -42,7 +43,7 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>autoconfigure</artifactId>
-                <version>${revision}</version>
+                <version>${start.version}</version>
             </dependency>
 
             <!--数据库-->
@@ -119,6 +120,57 @@
                 <groupId>io.zipkin.java</groupId>
                 <artifactId>zipkin-autoconfigure-storage-mysql</artifactId>
                 <version>${zipkin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-springboot-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-mybatis-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-redis-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-rabbitMq-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-boot-admin-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-cloud-server-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-turbine-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-zipkin-mysql-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-boot-admin-starter</artifactId>
+                <version>${start.version>}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

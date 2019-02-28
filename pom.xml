@@ -5,7 +5,7 @@
     <groupId>com.example</groupId>
     <artifactId>cloud-demo-dependencies</artifactId>
     <packaging>pom</packaging>
-    <version>${revision}</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
