@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>demo-redis</artifactId>
+            <artifactId>demo-monitor-client</artifactId>
         </dependency>
     </dependencies>
 

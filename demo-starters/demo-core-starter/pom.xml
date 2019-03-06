@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>demo-monitor-client</artifactId>
+            <artifactId>demo-core</artifactId>
         </dependency>
     </dependencies>
 
