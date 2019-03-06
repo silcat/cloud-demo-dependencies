@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.example.common.configuration.mvc.WebMvcConfigureration,\
-com.example.common.configuration.resttemplate.RestTemplateAutoConfiguration,\
-com.example.common.configuration.mvc.CustomerWebMvcSupportConfiguration
+com.example.democore.configuration.mvc.WebMvcConfigureration,\
+com.example.democore.configuration.resttemplate.RestTemplateAutoConfiguration,\
+com.example.democore.configuration.mvc.CustomerWebMvcSupportConfiguration
