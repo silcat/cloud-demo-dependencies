@@ -1,1 +1,0 @@
-provides: spring-cloud-starter-config, spring-cloud-starter-eureka, spring-cloud-starter-hystrix, spring-cloud-starter-feign, autoconfigure

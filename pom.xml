@@ -15,9 +15,11 @@
     </parent>
 
     <modules>
-        <module>autoconfigure</module>
         <module>base-dependencies</module>
         <module>parent</module>
+        <module>demo-core</module>
+        <module>demo-monitor-client</module>
+        <module>demo-redis</module>
         <module>demo-starters</module>
     </modules>
 
@@ -34,19 +36,23 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
-                <module>autoconfigure</module>
                 <module>base-dependencies</module>
+                <module>parent</module>
+                <module>demo-core</module>
+                <module>demo-monitor-client</module>
+                <module>demo-redis</module>
                 <module>demo-starters</module>
-                <module>autoconfigure</module>
             </modules>
         </profile>
         <profile>
             <id>release</id>
             <modules>
-                <module>autoconfigure</module>
                 <module>base-dependencies</module>
+                <module>parent</module>
+                <module>demo-core</module>
+                <module>demo-monitor-client</module>
+                <module>demo-redis</module>
                 <module>demo-starters</module>
-                <module>autoconfigure</module>
             </modules>
         </profile>
     </profiles>

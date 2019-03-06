@@ -10,22 +10,11 @@
         <relativePath>../parent</relativePath>
     </parent>
     <artifactId>demo-starters</artifactId>
-    <name>demo-starters</name>
     <packaging>pom</packaging>
 
-    <properties>
-        <main.basedir>${basedir}/..</main.basedir>
-    </properties>
-
     <modules>
-        <module>demo-cloud-client-starter</module>
-        <module>demo-cloud-server-starter</module>
-        <module>demo-boot-admin-starter</module>
-        <module>demo-springboot-starter</module>
-        <module>demo-turbine-starter</module>
-        <module>demo-zipkin-mysql-starter</module>
+        <module>demo-core-starter</module>
         <module>demo-redis-starter</module>
-        <module>demo-rabbitMq-starter</module>
-        <module>demo-mybatis-starter</module>
+        <module>demo-monitor-client-starter</module>
     </modules>
 </project>

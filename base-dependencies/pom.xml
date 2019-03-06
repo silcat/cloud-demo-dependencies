@@ -26,6 +26,9 @@
         <admin.version>1.5.7</admin.version>
         <zipkin.version>2.7.1</zipkin.version>
         <start.version>1.0.0-SNAPSHOT</start.version>
+        <validation-api.version>1.1.0.Final</validation-api.version>
+        <hibernate-validator.version>5.2.0.Final</hibernate-validator.version>
+        <xxl-job-core>1.8.2</xxl-job-core>
     </properties>
 
     <dependencyManagement>
@@ -70,6 +73,13 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>${pagehelper-spring-boot-starter.version}</version>
+            </dependency>
+
+            <!--xxjob-->
+            <dependency>
+                <groupId>com.xuxueli</groupId>
+                <artifactId>xxl-job-core</artifactId>
+                <version>${xxl-job-core}</version>
             </dependency>
 
             <!--监控-->
@@ -121,56 +131,37 @@
                 <artifactId>zipkin-autoconfigure-storage-mysql</artifactId>
                 <version>${zipkin.version}</version>
             </dependency>
+            <!--demo-->
             <dependency>
                 <groupId>com.example</groupId>
-                <artifactId>demo-springboot-starter</artifactId>
+                <artifactId>demo-core</artifactId>
                 <version>${start.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.example</groupId>
-                <artifactId>demo-mybatis-starter</artifactId>
+                <artifactId>demo-monitor-client</artifactId>
                 <version>${start.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-redis</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+            <!--start-->
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-core-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-monitor-client</artifactId>
+                <version>${start.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>demo-redis-starter</artifactId>
                 <version>${start.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-rabbitMq-starter</artifactId>
-                <version>${start.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-boot-admin-starter</artifactId>
-                <version>${start.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-cloud-server-starter</artifactId>
-                <version>${start.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-turbine-starter</artifactId>
-                <version>${start.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-zipkin-mysql-starter</artifactId>
-                <version>${start.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>demo-boot-admin-starter</artifactId>
-                <version>${start.version>}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

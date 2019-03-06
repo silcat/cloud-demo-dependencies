@@ -8,14 +8,12 @@
         <artifactId>demo-starters</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
-    <artifactId>demo-redis-starter</artifactId>
-
+    <artifactId>demo-core-starter</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>demo-redis</artifactId>
+            <artifactId>demo-monitor-client</artifactId>
         </dependency>
     </dependencies>
 

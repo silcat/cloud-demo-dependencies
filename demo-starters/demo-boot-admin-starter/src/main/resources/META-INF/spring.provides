@@ -1,1 +1,0 @@
-provides: autoconfigure, spring-boot-admin-server, spring-boot-admin-server-ui, spring-boot-admin-server-ui-hystrix ,spring-boot-admin-server-ui-login ,spring-boot-admin-server-ui-turbine,spring-boot-starter-security
