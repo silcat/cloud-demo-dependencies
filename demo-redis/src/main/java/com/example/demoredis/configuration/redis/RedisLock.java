@@ -1,7 +1,7 @@
-package com.example.autoconfigure.redis;
+package com.example.demoredis.configuration.redis;
 
+import com.example.demoredis.RedisConstant;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;

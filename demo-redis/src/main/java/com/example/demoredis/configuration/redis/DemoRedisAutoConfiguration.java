@@ -1,15 +1,12 @@
-package com.example.autoconfigure.redis;
+package com.example.demoredis.configuration.redis;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
-import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -22,8 +19,8 @@ import redis.clients.jedis.Jedis;
 import java.net.UnknownHostException;
 
 @Configuration
+@ConditionalOnProperty(value = "spring.redis.host")
 @ConditionalOnClass({ JedisConnection.class, RedisOperations.class, Jedis.class })
-@EnableConfigurationProperties(RedisProperties.class)
 public class DemoRedisAutoConfiguration {
 
     @Bean

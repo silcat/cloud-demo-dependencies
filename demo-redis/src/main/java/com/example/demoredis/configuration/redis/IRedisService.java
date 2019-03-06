@@ -1,4 +1,4 @@
-package com.example.autoconfigure.redis;
+package com.example.demoredis.configuration.redis;
 
 import java.util.List;
 import java.util.Map;

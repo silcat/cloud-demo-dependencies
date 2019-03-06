@@ -1,4 +1,4 @@
-package com.example.autoconfigure.redis;
+package com.example.demoredis.configuration.redis;
 
 import lombok.AllArgsConstructor;
 import org.springframework.dao.DataAccessException;
@@ -7,6 +7,7 @@ import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import redis.clients.jedis.JedisCommands;
+
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;

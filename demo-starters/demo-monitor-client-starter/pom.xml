@@ -8,15 +8,14 @@
         <artifactId>demo-starters</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>demo-rabbitMq-starter</artifactId>
-    <properties>
-        <main.basedir>${basedir}/../..</main.basedir>
-    </properties>
+
+    <artifactId>demo-monitor-client-starter</artifactId>
+
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+            <groupId>com.example</groupId>
+            <artifactId>demo-redis</artifactId>
         </dependency>
     </dependencies>
 

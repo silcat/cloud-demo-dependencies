@@ -1,9 +1,7 @@
-package com.example.autoconfigure.redis;
-
-import java.util.Random;
+package com.example.demoredis;
 
 /**
- * Created by sunlichuan on 18-6-5
+ * Created by yff
  */
 public class RedisConstant {
     public static final String UNLOCK_LUA;
