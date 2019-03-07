@@ -20,13 +20,15 @@ import java.util.List;
 /**
  * mvc通用配置：json序列化/统一异常处理/拦截器
  */
-@Configuration
+
 @Slf4j
-@EnableConfigurationProperties(ManagementServerProperties.class)
 public class WebMvcConfigureration extends WebMvcConfigurerAdapter {
 
-    @Autowired
     private ManagementServerProperties managementServerProperties;
+
+    public WebMvcConfigureration(ManagementServerProperties managementServerProperties) {
+        this.managementServerProperties = managementServerProperties;
+    }
 
     /**
      * 使用阿里 FastJson 作为JSON MessageConverter
@@ -47,7 +49,6 @@ public class WebMvcConfigureration extends WebMvcConfigurerAdapter {
         converters.add(converter);
     }
 
-
     /**
      * 统一异常处理
      * @param exceptionResolvers
@@ -56,7 +57,6 @@ public class WebMvcConfigureration extends WebMvcConfigurerAdapter {
     public void configureHandlerExceptionResolvers(List<HandlerExceptionResolver> exceptionResolvers) {
         exceptionResolvers.add(new CustomerHandlerExceptionResolver());
     }
-
     /**
      * 添加拦截器
      * @param registry

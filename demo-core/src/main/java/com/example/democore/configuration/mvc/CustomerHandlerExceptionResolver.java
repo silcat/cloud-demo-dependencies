@@ -5,6 +5,8 @@ import com.example.democore.core.Result;
 import com.example.democore.core.ResultCode;
 import com.example.democore.exception.DemoException;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.http.HttpStatus;
+import org.springframework.core.annotation.Order;
 import org.springframework.validation.BindException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.method.HandlerMethod;
@@ -17,6 +19,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.ConstraintViolationException;
 import java.io.IOException;
+
+import static org.springframework.core.Ordered.HIGHEST_PRECEDENCE;
 
 /**
  * 统一异常处理类
@@ -42,7 +46,7 @@ public class CustomerHandlerExceptionResolver extends AbstractHandlerExceptionRe
         //返回异常结果
         response.setCharacterEncoding("UTF-8");
         response.setHeader("Content-type", "application/json;charset=UTF-8");
-        response.setStatus(ResultCode.SUCCESS.code);
+        response.setStatus(200);
         try {
             response.getWriter().write(JSON.toJSONString(result));
         } catch (IOException ex) {
