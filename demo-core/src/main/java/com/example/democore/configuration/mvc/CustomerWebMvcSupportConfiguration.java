@@ -26,6 +26,7 @@ public class CustomerWebMvcSupportConfiguration extends WebMvcConfigurationSuppo
      * @return
      */
     @Override
+    @Bean
     public RequestMappingHandlerAdapter requestMappingHandlerAdapter() {
         RequestMappingHandlerAdapter adapter = super.requestMappingHandlerAdapter();
         adapter.setResponseBodyAdvice(Lists.newArrayList(new CustomerResponseBodyAdvisor(managementServerProperties)));
