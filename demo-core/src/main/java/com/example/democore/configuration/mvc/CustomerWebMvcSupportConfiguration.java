@@ -13,14 +13,13 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 /**
  * 打印响应日志
  */
+@Configuration
 @Slf4j
+@EnableConfigurationProperties(ManagementServerProperties.class)
 public class CustomerWebMvcSupportConfiguration extends WebMvcConfigurationSupport {
 
+    @Autowired
     private ManagementServerProperties managementServerProperties;
-
-    public CustomerWebMvcSupportConfiguration(ManagementServerProperties managementServerProperties) {
-        this.managementServerProperties = managementServerProperties;
-    }
 
     /**
      * 打印响应日志
