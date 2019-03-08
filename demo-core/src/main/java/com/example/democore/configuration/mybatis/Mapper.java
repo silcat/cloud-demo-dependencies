@@ -1,4 +1,4 @@
-package com.example.democore.core;
+package com.example.democore.configuration.mybatis;
 
 import tk.mybatis.mapper.common.BaseMapper;
 import tk.mybatis.mapper.common.ConditionMapper;

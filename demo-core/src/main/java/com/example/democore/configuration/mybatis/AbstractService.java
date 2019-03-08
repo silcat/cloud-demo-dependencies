@@ -1,10 +1,11 @@
-package com.example.democore.core;
+package com.example.democore.configuration.mybatis;
 
 import org.apache.ibatis.exceptions.TooManyResultsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import tk.mybatis.mapper.entity.Condition;
+
 import java.lang.reflect.Field;
-import java.util.*;
+import java.util.List;
 
 /**
  * <p>
@@ -18,7 +19,7 @@ public abstract class AbstractService<T> implements BaseService<T> {
     @Autowired
     protected Mapper mapper;
 
-    private Class<T> modelClass;    // 当前泛型真实类型的Class
+    private Class<T> modelClass;
 
     @Override
     public void save(T model) {

@@ -1,4 +1,4 @@
-package com.example.democore.core;
+package com.example.demobase.core;
 
 import lombok.Builder;
 

@@ -1,6 +1,6 @@
-package com.example.democore.exception;
+package com.example.demobase.exception;
 
-import com.example.democore.core.ResultCode;
+import com.example.demobase.core.ResultCode;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.lang3.StringUtils;

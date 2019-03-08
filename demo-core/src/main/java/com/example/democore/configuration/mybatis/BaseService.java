@@ -1,4 +1,4 @@
-package com.example.democore.core;
+package com.example.democore.configuration.mybatis;
 
 import org.apache.ibatis.exceptions.TooManyResultsException;
 import tk.mybatis.mapper.entity.Condition;

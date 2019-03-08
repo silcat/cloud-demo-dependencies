@@ -21,6 +21,8 @@
         <module>demo-monitor-client</module>
         <module>demo-redis</module>
         <module>demo-starters</module>
+        <module>demo-base</module>
+        <module>demo-zuul</module>
     </modules>
 
     <properties>
@@ -42,6 +44,8 @@
                 <module>demo-monitor-client</module>
                 <module>demo-redis</module>
                 <module>demo-starters</module>
+                <module>demo-base</module>
+                <module>demo-zuul</module>
             </modules>
         </profile>
         <profile>
@@ -53,6 +57,8 @@
                 <module>demo-monitor-client</module>
                 <module>demo-redis</module>
                 <module>demo-starters</module>
+                <module>demo-base</module>
+                <module>demo-zuul</module>
             </modules>
         </profile>
     </profiles>
