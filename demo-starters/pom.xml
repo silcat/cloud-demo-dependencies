@@ -16,6 +16,6 @@
         <module>demo-core-starter</module>
         <module>demo-redis-starter</module>
         <module>demo-monitor-client-starter</module>
-        <module>demo-zuul-starter</module>
+        <module>demo-gateway-starter</module>
     </modules>
 </project>

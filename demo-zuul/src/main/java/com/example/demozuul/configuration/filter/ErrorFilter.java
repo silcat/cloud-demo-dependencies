@@ -34,6 +34,9 @@ public class ErrorFilter extends ZuulFilter {
     public Object run() {
         RequestContext ctx = RequestContext.getCurrentContext();
         ctx.setResponseStatusCode(ResultCode.GATEWAY_ERROR.code);
+        Throwable throwable = ctx.getThrowable();
+        ctx.remove("throwable");
+        log.error("gateway post filter:", throwable);
         return null;
     }
 }
