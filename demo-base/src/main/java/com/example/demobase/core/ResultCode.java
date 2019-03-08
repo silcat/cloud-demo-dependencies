@@ -11,6 +11,7 @@ public enum ResultCode {
     SERVER_UNKONW_ERROR(500, "服务器开小差了,请稍后再试"),
     REMOTE_SERVER_ERROR(502, "远程服务调用失败"),
     NO_FUND(503,"请求接口地址不存在"),
+    GATEWAY_ERROR(504, "DB操作失败"),
     DB_ERROR(10000, "DB操作失败"),
     PARAM_NOT_EXIST(1002, "必填字段不存在"),
     THIRD_PARTY_ERROR(1102, "服务器开小差了，请稍后重试"),
