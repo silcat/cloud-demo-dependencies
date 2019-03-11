@@ -11,8 +11,8 @@ import java.util.List;
 public class DemoRedisProperties {
     private int database = 0;
     private String url ;
-    private String host = " 172.16.1.76";
-    private String password = "rrd_loan";
+    private String host = " 127.0.0.1";
+    private String password = "admin";
     private int port = 6379;
     private boolean ssl;
     private int timeout;
