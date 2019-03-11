@@ -27,7 +27,7 @@ public class ZipkinConfiguration {
      * @return
      */
     @Bean
-    public Sampler rrdSampler(SamplerProperties config) {
+    public Sampler demoSampler(SamplerProperties config) {
         return new DemoPercentageBasedSampler(config);
     }
 
