@@ -16,11 +16,6 @@
             <groupId>com.example</groupId>
             <artifactId>demo-core</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
         <!--cloud客户端配置-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -33,10 +28,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>demo-base</artifactId>
         </dependency>
     </dependencies>
 
