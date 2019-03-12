@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletResponse;
 
 
 @Slf4j
@@ -45,7 +46,10 @@ public class PostFilter extends ZuulFilter {
         ctx.setResponseStatusCode(HttpStatus.OK.value());
         try {
             JSONObject data = JsonUtils.initJSONObject(ResultCode.GATEWAY_ERROR);
-            ServletOutputStream output = ctx.getResponse().getOutputStream();
+            HttpServletResponse response = ctx.getResponse();response.setCharacterEncoding("UTF-8");
+            response.setHeader("Content-type", "application/json;charset=UTF-8");
+            response.setStatus(200);
+            ServletOutputStream output = response.getOutputStream();
             output.write(data.toJSONString().getBytes());
             output.flush();
             output.close();
