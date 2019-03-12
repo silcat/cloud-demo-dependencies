@@ -15,6 +15,11 @@
             <groupId>com.example</groupId>
             <artifactId>demo-base</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
         <!--客户端配置-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
