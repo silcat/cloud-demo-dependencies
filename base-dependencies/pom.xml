@@ -29,7 +29,7 @@
         <validation-api.version>1.1.0.Final</validation-api.version>
         <hibernate-validator.version>5.2.0.Final</hibernate-validator.version>
         <xxl-job-core>1.8.2</xxl-job-core>
-        <fescar>2.1.0.BUILD-SNAPSHOT</fescar>
+        <ali-cloud>0.1.1.RELEASE</ali-cloud>
     </properties>
 
     <dependencyManagement>
@@ -42,11 +42,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--分布式事务-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-alibaba-fescar</artifactId>
-                <version>${fescar}</version>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${ali-cloud}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <!--local-->
             <dependency>
