@@ -17,7 +17,7 @@ import java.util.List;
 public abstract class AbstractService<T> implements BaseService<T> {
 
     @Autowired
-    protected Mapper mapper;
+    protected Mapper<T> mapper;
 
     private Class<T> modelClass;
 
