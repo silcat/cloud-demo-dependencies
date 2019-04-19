@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.demofescar.rest.SeataRestTemplateAutoConfiguration,\
+com.example.demofescar.web.SeataHandlerInterceptorConfiguration,\
+com.example.demofescar.GlobalTransactionAutoConfiguration,\
+com.example.demofescar.feign.SeataFeignClientAutoConfiguration,\
+com.example.demofescar.feign.hystrix.SeataHystrixAutoConfiguration
+

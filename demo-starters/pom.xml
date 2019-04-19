@@ -19,5 +19,6 @@
         <module>demo-gateway-starter</module>
         <module>demo-cloud-client-starter</module>
         <module>demo-cloud-server-starter</module>
+        <module>demo-cloud-fescar-starter</module>
     </modules>
 </project>
