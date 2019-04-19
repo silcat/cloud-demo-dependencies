@@ -23,6 +23,7 @@
         <module>demo-starters</module>
         <module>demo-base</module>
         <module>demo-zuul</module>
+        <module>demo-fescar</module>
     </modules>
 
     <properties>
