@@ -18,11 +18,12 @@ package com.example.demofescar.web;
 
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
  * @author xiaojing
  */
-public class SeataHandlerInterceptorConfiguration implements WebMvcConfigurer {
+public class SeataHandlerInterceptorConfiguration extends WebMvcConfigurerAdapter {
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
