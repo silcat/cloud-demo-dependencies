@@ -17,7 +17,7 @@
 package com.example.demofescar.feign;
 
 import feign.Client;
-import org.springframework.cloud.openfeign.FeignContext;
+import org.springframework.cloud.netflix.feign.FeignContext;
 
 import java.util.HashMap;
 import java.util.Map;

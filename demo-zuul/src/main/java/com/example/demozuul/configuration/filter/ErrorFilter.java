@@ -1,8 +1,6 @@
 package com.example.demozuul.configuration.filter;
 
-import com.alibaba.fastjson.JSONObject;
 import com.example.demobase.core.ResultCode;
-import com.example.demobase.utils.JsonUtils;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import lombok.extern.slf4j.Slf4j;

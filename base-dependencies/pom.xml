@@ -180,6 +180,11 @@
                 <artifactId>demo-cloud-server</artifactId>
                 <version>${start.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-fescar</artifactId>
+                <version>${start.version}</version>
+            </dependency>
             <!--start-->
             <dependency>
                 <groupId>com.example</groupId>
@@ -209,6 +214,11 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>demo-cloud-server-starter</artifactId>
+                <version>${start.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>demo-cloud-fescar-starter</artifactId>
                 <version>${start.version}</version>
             </dependency>
         </dependencies>

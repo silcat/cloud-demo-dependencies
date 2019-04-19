@@ -19,7 +19,8 @@ package com.example.demofescar.feign;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.cloud.openfeign.FeignContext;
+import org.springframework.cloud.netflix.feign.FeignContext;
+
 
 /**
  * @author xiaojing
